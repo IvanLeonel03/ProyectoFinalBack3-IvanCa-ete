@@ -1,0 +1,28 @@
+{
+    "name": "backend-project",
+    "version": "1.0.0",
+    "description": "Backend project with Express and Swagger",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "test": "mocha --timeout 10000"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.22.1",
+        "mongoose": "^9.1.5",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1"
+    },
+    "devDependencies": {
+        "chai": "^6.2.2",
+        "mocha": "^11.7.5",
+        "supertest": "^7.2.2"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "type": "module"
+}
